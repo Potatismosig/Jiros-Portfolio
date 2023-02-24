@@ -1,5 +1,7 @@
 import Header from "./components/MenuBar";
 import FirstPage from "./components/Hello";
+import SecondPage from "./components/Projects";
+import ThirdPage from "./components/AboutMe";
 import "./components/styles.css";
 import "./components/responsiv.css"
 import './App.css';
@@ -14,6 +16,8 @@ function App() {
       <div className="page-background" id="first-page"></div>
       <main>
         <FirstPage></FirstPage>
+        <SecondPage></SecondPage>
+        <ThirdPage></ThirdPage>
         </main>
         </>
   );

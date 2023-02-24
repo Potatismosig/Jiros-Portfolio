@@ -1,0 +1,115 @@
+@media (max-width: 670px){ 
+
+    header{
+        height: fit-content;
+    }
+
+    .bugerBoxLable{
+        display: block;
+    }
+
+    .links{
+        flex-direction: column;
+        height: 0px;
+        width: 100%;
+        margin-left: 0;
+        overflow: hidden;
+        transition: all 0.3s;
+    }
+
+    .bugerBox:checked ~ .links{
+        height: 200px;
+    }
+
+    .links li{
+        background-color: rgba(29, 29, 29, 0.462);
+        padding: 10px;
+        min-height: 51px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .spare-time-cards {
+     width: 100%!important;
+     flex-direction: column!important;
+     align-items: center!important;
+     gap: 20px;
+    }
+
+    .page-background{
+        display: none;
+    }
+
+    .first-page{
+        background-color: #EEEED9;
+        height: fit-content !important;
+    }
+
+    .page-body{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .card-foundation{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        height: 100vh !important;
+        max-width: none !important;
+    }
+
+    .card-content-left-side{
+        box-shadow: none !important;
+    }
+
+    .card-content-right-side{
+        background-color: #F7F4EF;
+        padding: 20px !important;
+        width: 100% !important;
+        z-index: 1!important;
+    }
+
+    .card-content-right-side h2, h3{
+        text-align: center;
+    }
+
+    .div-contains-btn{
+        justify-content: center !important;
+    }
+
+    .second-page {
+        padding: 0 !important;
+    }
+
+    .projects{
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .projects-img {
+        min-width: 0 !important;
+        width: calc(100% - 0px) !important;
+    }
+
+    .contains-copyright{
+        justify-content: center !important;
+        flex-direction: column !important;
+    }
+
+    .contains-contact-info{
+        flex-direction: column !important;
+    }
+
+
+    .third-page-card-background{
+        padding: 0 !important;
+    }
+
+    .footer-copyright{
+        margin: 0 !important;
+    }
+}
+

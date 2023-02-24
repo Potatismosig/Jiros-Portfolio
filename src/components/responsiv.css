@@ -22,7 +22,7 @@
     }
 
     .links li{
-        background-color: rgba(29, 29, 29, 0.462);
+        background-color: #F6E08D;
         padding: 10px;
         min-height: 51px;
         width: 100%;
@@ -110,6 +110,14 @@
 
     .footer-copyright{
         margin: 0 !important;
+    }
+}
+
+@media (min-width: 670px) and (max-width: 1024px)
+{
+    .spare-time-cards
+    {
+        flex-wrap: wrap;
     }
 }
 

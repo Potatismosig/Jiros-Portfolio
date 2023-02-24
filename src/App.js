@@ -2,6 +2,7 @@ import Header from "./components/MenuBar";
 import FirstPage from "./components/Hello";
 import SecondPage from "./components/Projects";
 import ThirdPage from "./components/AboutMe";
+import Footer from "./components/Footer";
 import "./components/styles.css";
 import "./components/responsiv.css"
 import './App.css';
@@ -19,6 +20,9 @@ function App() {
         <SecondPage></SecondPage>
         <ThirdPage></ThirdPage>
         </main>
+        <footer>
+        <Footer></Footer>
+      </footer>
         </>
   );
 }

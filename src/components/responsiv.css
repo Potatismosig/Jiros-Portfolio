@@ -1,5 +1,5 @@
-@media (max-width: 670px){ 
-
+@media (max-width: 670px)
+{ 
     header{
         height: fit-content;
     }
@@ -113,11 +113,15 @@
     }
 }
 
-@media (min-width: 670px) and (max-width: 1024px)
+@media  (max-width: 1024px)
 {
     .spare-time-cards
     {
         flex-wrap: wrap;
+
+    }
+    .spare-time {
+        width: 50%;
     }
 }
 
